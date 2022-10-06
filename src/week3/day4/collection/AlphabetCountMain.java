@@ -2,7 +2,7 @@ package week3.day4.collection;
 
 import java.util.HashMap;
 
-public class AlphabetCntMain {
+public class AlphabetCountMain {
     public static void main(String[] args) {
 
         //모두 대문자로 변경
@@ -17,7 +17,7 @@ public class AlphabetCntMain {
         //string 한글자 씩 출력
         for(int idx = 0; idx < s1.length(); idx++) {
             char c = s1.charAt(idx);
-            boolean isAlphabet = AlphabetCnt.isAlphabet(c);
+            boolean isAlphabet = AlphabetCount.isAlphabet(c);
 
             if(isAlphabet){
                 alphabetMap.put(c, alphabetMap.get(c)+1);
