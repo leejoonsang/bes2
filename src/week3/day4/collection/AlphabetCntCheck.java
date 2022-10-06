@@ -1,6 +1,6 @@
 package week3.day4.collection;
 
-public class CheckingAlphabet {
+public class AlphabetCntCheck {
     public boolean isAlphabet(String s) {
 
         if(s == null){
