@@ -24,7 +24,6 @@ public class ReadFile {
         //char c = readFile.readOneByte();
         File file = new File("./a_file.txt");
         file.createNewFile();
-        System.out.println("파일 생성 되었는지?:" + file.exists());
 
         System.out.println(readFile.readOneByte("./a_file.txt"));
 
