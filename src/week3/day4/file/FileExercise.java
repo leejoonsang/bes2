@@ -7,6 +7,7 @@ import java.io.IOException;
 
 public class FileExercise {
 
+    // 현재 디렉토리 파일 목록 출력
     public void printFiles(){
         File dir = new File("./");
         File files[] = dir.listFiles();
