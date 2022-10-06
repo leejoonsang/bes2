@@ -3,7 +3,7 @@ package week3.day4.collection;
 import java.util.HashSet;
 import java.util.Set;
 
-public class AlphabetMain {
+public class AlphabetGenerateMain {
     public static void main(String[] args) {
         AlphabetGenerator alphabetGenerator = new AlphabetGenerator();
         Set<Character> set = new HashSet<>();
