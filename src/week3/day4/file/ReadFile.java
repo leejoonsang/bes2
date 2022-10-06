@@ -22,10 +22,10 @@ public class ReadFile {
 
         ReadFile readFile = new ReadFile("");
         //char c = readFile.readOneByte();
-        File file = new File("./a_file.txt");
+        File file = new File("./b_file.txt");
         file.createNewFile();
 
-        System.out.println(readFile.readOneByte("./a_file.txt"));
+        System.out.println(readFile.readOneByte("./b_file.txt"));
 
     }
 }
