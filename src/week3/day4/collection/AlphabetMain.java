@@ -9,7 +9,7 @@ public class AlphabetMain {
         Set<Character> set = new HashSet<>();
 
         for (int i = 0; i < 50; i++) {
-            char random = (char)(alphabetGenerator.generate(65));
+            char random = (alphabetGenerator.generate(65));
             set.add(random);
         }
 
@@ -19,3 +19,4 @@ public class AlphabetMain {
 
     }
 }
+

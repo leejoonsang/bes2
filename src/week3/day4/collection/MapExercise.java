@@ -18,6 +18,5 @@ public class MapExercise {
 
         System.out.println(map.entrySet());
 
-
     }
 }
