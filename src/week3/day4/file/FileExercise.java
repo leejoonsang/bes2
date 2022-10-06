@@ -12,3 +12,14 @@ public class FileExercise {
         }
     }
 }
+
+/*
+./.DS_Store
+./out
+./.gitignore
+./.git
+./a_file.txt
+./bes2.iml
+./.idea
+./src
+ */
