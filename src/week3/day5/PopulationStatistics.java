@@ -125,20 +125,5 @@ public class PopulationStatistics {
 
         populationStatistics.write(cntResult, resultFilename);
 
-
-
-
-
-
-//        System.out.println(pml);
-
-
-        // populationStatistics.readByLine(address);
-
-//        String data = "50,130,54000,2021,07,19,50,130,57000,3,1,061,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,492029";
-//        PopulationMove pm = populationStatistics.parse(data);
-//        System.out.println(pm.getFromSido());
-//        System.out.println(pm.getToSido());
-
     }
 }
