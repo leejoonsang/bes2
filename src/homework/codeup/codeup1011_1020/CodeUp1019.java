@@ -1,4 +1,4 @@
-package homework.codeup;
+package homework.codeup.codeup1011_1020;
 
 import java.text.SimpleDateFormat;
 import java.util.Scanner;

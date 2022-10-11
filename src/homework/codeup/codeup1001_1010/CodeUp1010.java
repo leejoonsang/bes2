@@ -1,4 +1,4 @@
-package homework.codeup;
+package homework.codeup.codeup1001_1010;
 
 import java.util.Scanner;
 
