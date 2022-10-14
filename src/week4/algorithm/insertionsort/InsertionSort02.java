@@ -8,15 +8,15 @@ public class InsertionSort02 {
         // i=1일때 arr[1] ? arr[0]
         // i=2일때 arr[2] ? arr[1]
         //        arr[2] ? arr[1]
-        int j = i;
-        int temp;
-        if(arr[j] < arr[j-1]){
-            // swap
-            temp = arr[j];
-            arr[j] = arr[j-1];
-            arr[j-1] = temp;
+        for(int j=i; j>0; j--){
+            System.out.printf("i:%d j:%d j-1:%d\n", i, j, j-1);
+            if(arr[j] < arr[j-1]){
+                // swap
+                int temp = arr[j];
+                arr[j] = arr[j-1];
+                arr[j-1] = temp;
+            }
         }
-
         return arr;
     }
 
