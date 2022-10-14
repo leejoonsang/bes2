@@ -32,7 +32,9 @@ public class CodeUp1443 {
             }
 
             result = is.sorting(arr);
-            System.out.println(Arrays.toString(result));
+            for(int element : result){
+                System.out.println(element);
+            }
 
         }catch (Exception e){
             System.out.println("다시 입력하세요.");
