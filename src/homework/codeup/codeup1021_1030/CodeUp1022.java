@@ -1,4 +1,4 @@
-package homework.codeup;
+package homework.codeup.codeup1021_1030;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
